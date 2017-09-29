@@ -1,0 +1,32 @@
+{
+  "name": "backend-ecuris",
+  "version": "1.0.0",
+  "description": "\"Application Total Backend\"",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nagendrapalla/ecuris-backend.git"
+  },
+  "keywords": [
+    "ECURIS",
+    "MEDICAL",
+    "APPLICATION"
+  ],
+  "author": "Nagendra Palla",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nagendrapalla/ecuris-backend/issues"
+  },
+  "homepage": "https://github.com/nagendrapalla/ecuris-backend#readme",
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "body-parser": "^1.18.1",
+    "express": "^4.15.4",
+    "jsonwebtoken": "^8.0.1",
+    "mongoose": "^4.11.11",
+    "morgan": "^1.8.2"
+  }
+}
